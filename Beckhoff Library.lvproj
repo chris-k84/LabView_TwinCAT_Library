@@ -14,10 +14,11 @@
 		<Item Name="ADS" Type="Folder">
 			<Item Name="Samples" Type="Folder">
 				<Item Name="GetADSPathsForTwinCAT.vi" Type="VI" URL="../ADS/Samples/GetADSPathsForTwinCAT.vi"/>
+				<Item Name="Sample_SimpleBoolRead.vi" Type="VI" URL="../ADS/Samples/Sample_SimpleBoolRead.vi"/>
 				<Item Name="Sample_SimpleStructRead.vi" Type="VI" URL="../ADS/Samples/Sample_SimpleStructRead.vi"/>
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
-				<Item Name="SingleStructRead.vi" Type="VI" URL="../ADS/SubVIs/SingleStructRead.vi"/>
+				<Item Name="SubVI_SingleRead.vi" Type="VI" URL="../ADS/SubVIs/SubVI_SingleRead.vi"/>
 			</Item>
 			<Item Name="TypeDefs" Type="Folder">
 				<Item Name="EL92xxOCPInputs.ctl" Type="VI" URL="../ADS/TypeDefs/EL92xxOCPInputs.ctl"/>
