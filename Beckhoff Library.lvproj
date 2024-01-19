@@ -33,7 +33,10 @@
 		<Item Name="MOTION" Type="Folder">
 			<Item Name="Samples" Type="Folder"/>
 			<Item Name="SubVIs" Type="Folder"/>
-			<Item Name="TypeDefs" Type="Folder"/>
+			<Item Name="TypeDefs" Type="Folder">
+				<Item Name="EL72xx_DMCInputs.ctl" Type="VI" URL="../ADS/TypeDefs/EL72xx_DMCInputs.ctl"/>
+				<Item Name="EL72xx_DMCOutputs.ctl" Type="VI" URL="../ADS/TypeDefs/EL72xx_DMCOutputs.ctl"/>
+			</Item>
 		</Item>
 		<Item Name="SAFETY" Type="Folder">
 			<Item Name="Samples" Type="Folder"/>
