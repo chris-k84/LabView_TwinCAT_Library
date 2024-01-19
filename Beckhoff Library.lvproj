@@ -13,7 +13,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ADS" Type="Folder">
 			<Item Name="Samples" Type="Folder">
-				<Item Name="GetADSPathsForTwinCAT.vi" Type="VI" URL="../ADS/Samples/GetADSPathsForTwinCAT.vi"/>
 				<Item Name="Sample_SimpleBoolRead.vi" Type="VI" URL="../ADS/Samples/Sample_SimpleBoolRead.vi"/>
 				<Item Name="Sample_SimpleNumericRead.vi" Type="VI" URL="../ADS/Samples/Sample_SimpleNumericRead.vi"/>
 				<Item Name="Sample_SimpleStructRead.vi" Type="VI" URL="../ADS/Samples/Sample_SimpleStructRead.vi"/>
@@ -21,21 +20,24 @@
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="SubVI_SingleRead.vi" Type="VI" URL="../ADS/SubVIs/SubVI_SingleRead.vi"/>
 			</Item>
-			<Item Name="TypeDefs" Type="Folder">
-				<Item Name="EL92xxOCPInputs.ctl" Type="VI" URL="../ADS/TypeDefs/EL92xxOCPInputs.ctl"/>
-			</Item>
+			<Item Name="TypeDefs" Type="Folder"/>
+		</Item>
+		<Item Name="Helper" Type="Folder">
+			<Item Name="GetADSPathsForTwinCAT.vi" Type="VI" URL="../Helper/GetADSPathsForTwinCAT.vi"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
 			<Item Name="Samples" Type="Folder"/>
 			<Item Name="SubVIs" Type="Folder"/>
-			<Item Name="TypeDefs" Type="Folder"/>
+			<Item Name="TypeDefs" Type="Folder">
+				<Item Name="EL92xxOCPInputs.ctl" Type="VI" URL="../IO/TypeDefs/EL92xxOCPInputs.ctl"/>
+			</Item>
 		</Item>
 		<Item Name="MOTION" Type="Folder">
 			<Item Name="Samples" Type="Folder"/>
 			<Item Name="SubVIs" Type="Folder"/>
 			<Item Name="TypeDefs" Type="Folder">
-				<Item Name="EL72xx_DMCInputs.ctl" Type="VI" URL="../ADS/TypeDefs/EL72xx_DMCInputs.ctl"/>
-				<Item Name="EL72xx_DMCOutputs.ctl" Type="VI" URL="../ADS/TypeDefs/EL72xx_DMCOutputs.ctl"/>
+				<Item Name="EL72xx_DMCInputs.ctl" Type="VI" URL="../MOTION/TypeDefs/EL72xx_DMCInputs.ctl"/>
+				<Item Name="EL72xx_DMCOutputs.ctl" Type="VI" URL="../MOTION/TypeDefs/EL72xx_DMCOutputs.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="SAFETY" Type="Folder">
