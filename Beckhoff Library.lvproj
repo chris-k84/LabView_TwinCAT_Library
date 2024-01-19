@@ -30,6 +30,7 @@
 			<Item Name="SubVIs" Type="Folder"/>
 			<Item Name="TypeDefs" Type="Folder">
 				<Item Name="EL92xxOCPInputs.ctl" Type="VI" URL="../IO/TypeDefs/EL92xxOCPInputs.ctl"/>
+				<Item Name="EL92xxOCPOutputs.ctl" Type="VI" URL="../IO/TypeDefs/EL92xxOCPOutputs.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="MOTION" Type="Folder">
