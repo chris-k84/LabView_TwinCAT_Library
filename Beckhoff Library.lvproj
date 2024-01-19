@@ -15,6 +15,7 @@
 			<Item Name="Samples" Type="Folder">
 				<Item Name="GetADSPathsForTwinCAT.vi" Type="VI" URL="../ADS/Samples/GetADSPathsForTwinCAT.vi"/>
 				<Item Name="Sample_SimpleBoolRead.vi" Type="VI" URL="../ADS/Samples/Sample_SimpleBoolRead.vi"/>
+				<Item Name="Sample_SimpleNumericRead.vi" Type="VI" URL="../ADS/Samples/Sample_SimpleNumericRead.vi"/>
 				<Item Name="Sample_SimpleStructRead.vi" Type="VI" URL="../ADS/Samples/Sample_SimpleStructRead.vi"/>
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
