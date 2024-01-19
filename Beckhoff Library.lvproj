@@ -39,6 +39,12 @@
 			<Item Name="TypeDefs" Type="Folder">
 				<Item Name="EL72xx_DMCInputs.ctl" Type="VI" URL="../MOTION/TypeDefs/EL72xx_DMCInputs.ctl"/>
 				<Item Name="EL72xx_DMCOutputs.ctl" Type="VI" URL="../MOTION/TypeDefs/EL72xx_DMCOutputs.ctl"/>
+				<Item Name="EL704x_ENCControl.ctl" Type="VI" URL="../MOTION/TypeDefs/EL704x_ENCControl.ctl"/>
+				<Item Name="EL704x_ENCStatus.ctl" Type="VI" URL="../MOTION/TypeDefs/EL704x_ENCStatus.ctl"/>
+				<Item Name="EL704x_POSControl.ctl" Type="VI" URL="../MOTION/TypeDefs/EL704x_POSControl.ctl"/>
+				<Item Name="EL704x_POSStatus.ctl" Type="VI" URL="../MOTION/TypeDefs/EL704x_POSStatus.ctl"/>
+				<Item Name="EL704x_STMControl.ctl" Type="VI" URL="../MOTION/TypeDefs/EL704x_STMControl.ctl"/>
+				<Item Name="EL704x_STMStatus.ctl" Type="VI" URL="../MOTION/TypeDefs/EL704x_STMStatus.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="SAFETY" Type="Folder">
