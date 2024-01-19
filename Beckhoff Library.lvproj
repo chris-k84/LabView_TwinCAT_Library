@@ -11,17 +11,32 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="ADS" Type="Folder" URL="../ADS">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="ADS" Type="Folder">
+			<Item Name="Samples" Type="Folder">
+				<Item Name="GetADSPathsForTwinCAT.vi" Type="VI" URL="../ADS/Samples/GetADSPathsForTwinCAT.vi"/>
+				<Item Name="Sample_SimpleStructRead.vi" Type="VI" URL="../ADS/Samples/Sample_SimpleStructRead.vi"/>
+			</Item>
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="SingleStructRead.vi" Type="VI" URL="../ADS/SubVIs/SingleStructRead.vi"/>
+			</Item>
+			<Item Name="TypeDefs" Type="Folder">
+				<Item Name="EL92xxOCPInputs.ctl" Type="VI" URL="../ADS/TypeDefs/EL92xxOCPInputs.ctl"/>
+			</Item>
 		</Item>
-		<Item Name="IO" Type="Folder" URL="../IO">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="IO" Type="Folder">
+			<Item Name="Samples" Type="Folder"/>
+			<Item Name="SubVIs" Type="Folder"/>
+			<Item Name="TypeDefs" Type="Folder"/>
 		</Item>
-		<Item Name="MOTION" Type="Folder" URL="../MOTION">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="MOTION" Type="Folder">
+			<Item Name="Samples" Type="Folder"/>
+			<Item Name="SubVIs" Type="Folder"/>
+			<Item Name="TypeDefs" Type="Folder"/>
 		</Item>
-		<Item Name="SAFETY" Type="Folder" URL="../SAFETY">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="SAFETY" Type="Folder">
+			<Item Name="Samples" Type="Folder"/>
+			<Item Name="SubVIs" Type="Folder"/>
+			<Item Name="TypeDefs" Type="Folder"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
