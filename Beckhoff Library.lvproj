@@ -12,45 +12,19 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ADS" Type="Folder">
-			<Item Name="Samples" Type="Folder">
-				<Item Name="Sample_SimpleBoolRead.vi" Type="VI" URL="../ADS/Samples/Sample_SimpleBoolRead.vi"/>
-				<Item Name="Sample_SimpleNumericRead.vi" Type="VI" URL="../ADS/Samples/Sample_SimpleNumericRead.vi"/>
-				<Item Name="Sample_SimpleStructRead.vi" Type="VI" URL="../ADS/Samples/Sample_SimpleStructRead.vi"/>
-			</Item>
-			<Item Name="SubVIs" Type="Folder">
-				<Item Name="SubVI_SingleRead.vi" Type="VI" URL="../ADS/SubVIs/SubVI_SingleRead.vi"/>
-			</Item>
-			<Item Name="TypeDefs" Type="Folder"/>
+			<Item Name="ADS_Library.lvlib" Type="Library" URL="../ADS/ADS_Library.lvlib"/>
 		</Item>
 		<Item Name="Helper" Type="Folder">
 			<Item Name="GetADSPathsForTwinCAT.vi" Type="VI" URL="../Helper/GetADSPathsForTwinCAT.vi"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
-			<Item Name="Samples" Type="Folder"/>
-			<Item Name="SubVIs" Type="Folder"/>
-			<Item Name="TypeDefs" Type="Folder">
-				<Item Name="EL92xxOCPInputs.ctl" Type="VI" URL="../IO/TypeDefs/EL92xxOCPInputs.ctl"/>
-				<Item Name="EL92xxOCPOutputs.ctl" Type="VI" URL="../IO/TypeDefs/EL92xxOCPOutputs.ctl"/>
-			</Item>
+			<Item Name="IO_Library.lvlib" Type="Library" URL="../IO/IO_Library.lvlib"/>
 		</Item>
 		<Item Name="MOTION" Type="Folder">
-			<Item Name="Samples" Type="Folder"/>
-			<Item Name="SubVIs" Type="Folder"/>
-			<Item Name="TypeDefs" Type="Folder">
-				<Item Name="EL72xx_DMCInputs.ctl" Type="VI" URL="../MOTION/TypeDefs/EL72xx_DMCInputs.ctl"/>
-				<Item Name="EL72xx_DMCOutputs.ctl" Type="VI" URL="../MOTION/TypeDefs/EL72xx_DMCOutputs.ctl"/>
-				<Item Name="EL704x_ENCControl.ctl" Type="VI" URL="../MOTION/TypeDefs/EL704x_ENCControl.ctl"/>
-				<Item Name="EL704x_ENCStatus.ctl" Type="VI" URL="../MOTION/TypeDefs/EL704x_ENCStatus.ctl"/>
-				<Item Name="EL704x_POSControl.ctl" Type="VI" URL="../MOTION/TypeDefs/EL704x_POSControl.ctl"/>
-				<Item Name="EL704x_POSStatus.ctl" Type="VI" URL="../MOTION/TypeDefs/EL704x_POSStatus.ctl"/>
-				<Item Name="EL704x_STMControl.ctl" Type="VI" URL="../MOTION/TypeDefs/EL704x_STMControl.ctl"/>
-				<Item Name="EL704x_STMStatus.ctl" Type="VI" URL="../MOTION/TypeDefs/EL704x_STMStatus.ctl"/>
-			</Item>
+			<Item Name="Motion_Library.lvlib" Type="Library" URL="../MOTION/Motion_Library.lvlib"/>
 		</Item>
 		<Item Name="SAFETY" Type="Folder">
-			<Item Name="Samples" Type="Folder"/>
-			<Item Name="SubVIs" Type="Folder"/>
-			<Item Name="TypeDefs" Type="Folder"/>
+			<Item Name="Safety_Library.lvlib" Type="Library" URL="../SAFETY/Safety_Library.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
