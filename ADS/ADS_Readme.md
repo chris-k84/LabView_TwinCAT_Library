@@ -13,6 +13,9 @@ There are currently 3 samples in the library:
 The Sample_SimpleBoolRead.VI implments the SubVI_SingleRead, it provides a string control to specify a target for the call and casts the variant returned to a bool type. This sample is a single call function to provide a sample of a bool read and how you would do it. If you wanted to read continuously you would not initialise and release the reference as you do in this sample.
 
 2. Sample_SimpleNumericRead.vi
+
+The Sample_SimpleNumericRead.VI implemnts the SubVI_SingleRead, it provides a string control to specify a target for the call and casts the variant returned to a interger type. This sample is a single call function to provide a sample of a interger read and how you would do it. If you wanted to read continuously you would not initialise and release the reference as you do in this sample.
+
 3. Sample_SimpleStructRead.vi
 
 ## SubVIs
