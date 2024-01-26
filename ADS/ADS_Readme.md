@@ -18,6 +18,8 @@ The Sample_SimpleNumericRead.VI implemnts the SubVI_SingleRead, it provides a st
 
 3. Sample_SimpleStructRead.vi
 
+The Sample_SimpleStructRead.VI implements the SubVI_SingleRead, it provides a string control to specify a target for the call and casts the variant returned to a cluster using a typedef. This sample is a single call function to provide a sample of a cluster read and how you would do it. If you wanted to read continuously you would not initialise and release the reference as you do in this sample.
+
 ## SubVIs
 
 There is currently 1 SubVI in the library:
