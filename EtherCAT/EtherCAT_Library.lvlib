@@ -9,6 +9,7 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="SubVI_CoEIndexRead.vi" Type="VI" URL="../SubVI_CoEIndexRead.vi"/>
+		<Item Name="SubVI_CoEIndexWrite.vi" Type="VI" URL="../SubVI_CoEIndexWrite.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder"/>
 </Library>
