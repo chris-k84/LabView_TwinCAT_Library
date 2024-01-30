@@ -14,8 +14,13 @@
 		<Item Name="ADS" Type="Folder">
 			<Item Name="ADS_Library.lvlib" Type="Library" URL="../ADS/ADS_Library.lvlib"/>
 		</Item>
+		<Item Name="EtherCAT" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="EtherCAT_Library.lvlib" Type="Library" URL="../EtherCAT/EtherCAT_Library.lvlib"/>
+		</Item>
 		<Item Name="Helper" Type="Folder">
 			<Item Name="GetADSPathsForTwinCAT.vi" Type="VI" URL="../Helper/GetADSPathsForTwinCAT.vi"/>
+			<Item Name="GetCoEIndexOfTargetDevice.vi" Type="VI" URL="../Helper/GetCoEIndexOfTargetDevice.vi"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
 			<Item Name="IO_Library.lvlib" Type="Library" URL="../IO/IO_Library.lvlib"/>
@@ -53,6 +58,10 @@
 				<Item Name="Notification Symbol Info.ctl" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/_DependsOn/TypeDefs/Notifications/Notification Symbol Info.ctl"/>
 				<Item Name="Notification Transition Mode.ctl" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/_DependsOn/TypeDefs/Notifications/Notification Transition Mode.ctl"/>
 				<Item Name="Read Async.vi" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/_DependsOn/Base/Read/Read Async.vi"/>
+				<Item Name="Read CoE Description.vi" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/Utilities/CoE/Read CoE Description.vi"/>
+				<Item Name="Read CoE Entry.vi" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/Utilities/CoE/Read CoE Entry.vi"/>
+				<Item Name="Read CoE List.vi" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/Utilities/CoE/Read CoE List.vi"/>
+				<Item Name="Read CoE Value.vi" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/Utilities/CoE/Read CoE Value.vi"/>
 				<Item Name="Read Notification Buffered.vi" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/_DependsOn/Base/Read/Read Notification Buffered.vi"/>
 				<Item Name="Read Notification Single.vi" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/_DependsOn/Base/Read/Read Notification Single.vi"/>
 				<Item Name="Read Sync.vi" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/_DependsOn/Base/Read/Read Sync.vi"/>
