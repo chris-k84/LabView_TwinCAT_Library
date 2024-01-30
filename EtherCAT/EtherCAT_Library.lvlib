@@ -6,7 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Samples" Type="Folder"/>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Sample_CoEIndexRead.vi" Type="VI" URL="../Sample_CoEIndexRead.vi"/>
+		<Item Name="SubVI_CoEIndexRead.vi" Type="VI" URL="../SubVI_CoEIndexRead.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder"/>
 </Library>
