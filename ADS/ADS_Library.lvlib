@@ -11,6 +11,7 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="SubVI_SingleRead.vi" Type="VI" URL="../SubVIs/SubVI_SingleRead.vi"/>
+		<Item Name="SubVI_SingleWrite.vi" Type="VI" URL="../SubVIs/SubVI_SingleWrite.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder"/>
 </Library>
