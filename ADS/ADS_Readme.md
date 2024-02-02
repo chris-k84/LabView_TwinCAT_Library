@@ -20,6 +20,10 @@ The Sample_SimpleNumericRead.VI implemnts the SubVI_SingleRead, it provides a st
 
 The Sample_SimpleStructRead.VI implements the SubVI_SingleRead, it provides a string control to specify a target for the call and casts the variant returned to a cluster using a typedef. This sample is a single call function to provide a sample of a cluster read and how you would do it. If you wanted to read continuously you would not initialise and release the reference as you do in this sample.
 
+4. Sample_SimpleContinuousRead.vi
+
+The Sample_SimpleContinuousRead.VI implements a similar program to the first 3, however the read elements are contained in a while loop, this sample opens the communications then continually reads from the target at 1ms intervals. The target is set to be a single value each read and a TC type REAL, if you need to test on other types the sample will need to be adapted, creating an array will handle oversample channels.
+
 ## SubVIs
 
 There is currently 1 SubVI in the library:
