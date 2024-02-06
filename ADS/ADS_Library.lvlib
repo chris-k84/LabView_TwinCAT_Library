@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Samples" Type="Folder">
+		<Item Name="Sample_EventContinuousRead.vi" Type="VI" URL="../Samples/Sample_EventContinuousRead.vi"/>
 		<Item Name="Sample_SimpleBoolRead.vi" Type="VI" URL="../Samples/Sample_SimpleBoolRead.vi"/>
 		<Item Name="Sample_SimpleContinuousRead.vi" Type="VI" URL="../Samples/Sample_SimpleContinuousRead.vi"/>
 		<Item Name="Sample_SimpleNumericRead.vi" Type="VI" URL="../Samples/Sample_SimpleNumericRead.vi"/>
