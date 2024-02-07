@@ -8,5 +8,8 @@
 		<Item Name="Sample_EL6910Diagnostics.vi" Type="VI" URL="../Samples/Sample_EL6910Diagnostics.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder"/>
-	<Item Name="TypeDefs" Type="Folder"/>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="FSoEConnectionInfoData.ctl" Type="VI" URL="../TypeDefs/FSoEConnectionInfoData.ctl"/>
+		<Item Name="TwinSAFEGroupInfoData.ctl" Type="VI" URL="../TypeDefs/TwinSAFEGroupInfoData.ctl"/>
+	</Item>
 </Library>
