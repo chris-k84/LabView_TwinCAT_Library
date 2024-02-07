@@ -12,6 +12,7 @@
 		<Item Name="Sample_SimpleStructRead.vi" Type="VI" URL="../Samples/Sample_SimpleStructRead.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="SubVI_MultipleRead.vi" Type="VI" URL="../SubVIs/SubVI_MultipleRead.vi"/>
 		<Item Name="SubVI_SingleRead.vi" Type="VI" URL="../SubVIs/SubVI_SingleRead.vi"/>
 		<Item Name="SubVI_SingleWrite.vi" Type="VI" URL="../SubVIs/SubVI_SingleWrite.vi"/>
 	</Item>

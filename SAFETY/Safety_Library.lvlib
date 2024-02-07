@@ -4,7 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">573603840</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Samples" Type="Folder"/>
+	<Item Name="Samples" Type="Folder">
+		<Item Name="Sample_EL6910Diagnostics.vi" Type="VI" URL="../Samples/Sample_EL6910Diagnostics.vi"/>
+	</Item>
 	<Item Name="SubVIs" Type="Folder"/>
 	<Item Name="TypeDefs" Type="Folder"/>
 </Library>
