@@ -5,9 +5,14 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Samples" Type="Folder"/>
-	<Item Name="SubVIs" Type="Folder"/>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="EL2008.vi" Type="VI" URL="../Terminals/EL2008.vi"/>
+	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="EL92xxOCPInputs.ctl" Type="VI" URL="../TypeDefs/EL92xxOCPInputs.ctl"/>
 		<Item Name="EL92xxOCPOutputs.ctl" Type="VI" URL="../TypeDefs/EL92xxOCPOutputs.ctl"/>
+		<Item Name="EL1002Inputs.ctl" Type="VI" URL="../TypeDefs/EL1002Inputs.ctl"/>
+		<Item Name="EL2008Inputs.ctl" Type="VI" URL="../TypeDefs/EL2008Inputs.ctl"/>
+		<Item Name="EL2008Outputs.ctl" Type="VI" URL="../TypeDefs/EL2008Outputs.ctl"/>
 	</Item>
 </Library>
