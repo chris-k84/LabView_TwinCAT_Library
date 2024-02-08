@@ -26,11 +26,15 @@ The Sample_SimpleContinuousRead.VI implements a similar program to the first 3, 
 
 ## SubVIs
 
-There is currently 1 SubVI in the library:
+There are currently 3 SubVI in the library:
 
 1. SubVI_SingleRead.vi
 
 The SUBVI_SingleRead encapsulates the process of reading data from a TwinCAT system. IT uses base VIs from the TF3710 package to initialise a symbol link, read the value, parse to a LabVIEW type, then release the connection. Is operation is simple, requiring only a string path to the value required. it currently only reads a single value, but this can be any type. The return value is a LabVIEW variant which can then be cast to a data type using the variant to data control in LV.
+
+2. SubVI_SingleWrite.vi
+
+The SubVI_SingleWrite encapsulates the process of writting data to a TwinCAT system. it uses the base VIs from the TF3710 package to initialise a symbol link, cast the value to a TwinCAT type, push to the paramter in TwinCAT, then close the connection. The operation is simple, only a single value can be written currently, the VI only requires a path for a paramter. The VI outputs a successful write flag.
 
 ## TypeDefs
 
