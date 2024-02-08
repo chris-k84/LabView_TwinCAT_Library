@@ -36,6 +36,10 @@ The SUBVI_SingleRead encapsulates the process of reading data from a TwinCAT sys
 
 The SubVI_SingleWrite encapsulates the process of writting data to a TwinCAT system. it uses the base VIs from the TF3710 package to initialise a symbol link, cast the value to a TwinCAT type, push to the paramter in TwinCAT, then close the connection. The operation is simple, only a single value can be written currently, the VI only requires a path for a paramter. The VI outputs a successful write flag.
 
+3. SubVI_MultipleRead.vi
+
+The SubVI_MultipleRead.vi encapsualtes the process of reading multiple variables from a TwinCAT system. It uses the base VIs form the TF3710 package to initialise a symbol path, read all the values form the path description, parse to LabVIEW, then release the connections. The provided path is built form the INIT vi, the helper VIs can be used to obtain the path string, it can contain multiple paths for different values. the return values are LabVIEW variants in an array, this can then be decoded as required.
+
 ## TypeDefs
 
 Currently no typedefs
