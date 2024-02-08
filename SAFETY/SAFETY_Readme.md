@@ -6,7 +6,11 @@ This file provides a more detailed view of the contents of the SAFETY Library. P
 
 ## Samples
 
-Currently no samples
+There is currently 1 sample in the library.
+
+1. Sample_EL6910Diagnostics.VI
+
+The Sample_EL6910Diagnostics.vi uses the SubVI_MultipleRead from the ADS library to allow you to read multiple parameters in a single command. The current implementation expects 2 x ConectionInfoData, DeviceInfoData, FSLogic and GroupInfoData in the order. This can be modified as needed, each is then cast to its type def for display.
 
 
 ## SubVIs
