@@ -24,6 +24,10 @@ The Sample_SimpleStructRead.VI implements the SubVI_SingleRead, it provides a st
 
 The Sample_SimpleContinuousRead.VI implements a similar program to the first 3, however the read elements are contained in a while loop, this sample opens the communications then continually reads from the target at 1ms intervals. The target is set to be a single value each read and a TC type REAL, if you need to test on other types the sample will need to be adapted, creating an array will handle oversample channels.
 
+5. Sample_EventContinuousRead.vi
+
+The Sample_EventContinuousRead.VI implements an event driven system, the standard Sync and Async reads are a polling communication which requires the full ADS comms cycle. This VI sets up a notification on a parameter inside TwinCAT, it then updates on change of the parameter, we can then stream data extremely quickly. The sample has a stop, once pressed the notification is released and connection closed.
+
 ## SubVIs
 
 There are currently 3 SubVI in the library:
