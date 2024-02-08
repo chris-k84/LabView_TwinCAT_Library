@@ -5,12 +5,14 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Samples" Type="Folder">
+		<Item Name="Sample_EventContinuousRead.vi" Type="VI" URL="../Samples/Sample_EventContinuousRead.vi"/>
 		<Item Name="Sample_SimpleBoolRead.vi" Type="VI" URL="../Samples/Sample_SimpleBoolRead.vi"/>
 		<Item Name="Sample_SimpleContinuousRead.vi" Type="VI" URL="../Samples/Sample_SimpleContinuousRead.vi"/>
 		<Item Name="Sample_SimpleNumericRead.vi" Type="VI" URL="../Samples/Sample_SimpleNumericRead.vi"/>
 		<Item Name="Sample_SimpleStructRead.vi" Type="VI" URL="../Samples/Sample_SimpleStructRead.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="SubVI_MultipleRead.vi" Type="VI" URL="../SubVIs/SubVI_MultipleRead.vi"/>
 		<Item Name="SubVI_SingleRead.vi" Type="VI" URL="../SubVIs/SubVI_SingleRead.vi"/>
 		<Item Name="SubVI_SingleSymbolRead.vi" Type="VI" URL="../SubVIs/SubVI_SingleSymbolRead.vi"/>
 		<Item Name="SubVI_SingleSymbolWrite.vi" Type="VI" URL="../SubVIs/SubVI_SingleSymbolWrite.vi"/>
