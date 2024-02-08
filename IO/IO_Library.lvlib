@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Samples" Type="Folder"/>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="EL1002.vi" Type="VI" URL="../Terminals/EL1002.vi"/>
 		<Item Name="EL2008.vi" Type="VI" URL="../Terminals/EL2008.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
