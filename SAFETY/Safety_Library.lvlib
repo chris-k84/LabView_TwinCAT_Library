@@ -9,6 +9,8 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder"/>
 	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="DeviceInfoData.ctl" Type="VI" URL="../TypeDefs/DeviceInfoData.ctl"/>
+		<Item Name="FSLogicInputs.ctl" Type="VI" URL="../TypeDefs/FSLogicInputs.ctl"/>
 		<Item Name="FSoEConnectionInfoData.ctl" Type="VI" URL="../TypeDefs/FSoEConnectionInfoData.ctl"/>
 		<Item Name="TwinSAFEGroupInfoData.ctl" Type="VI" URL="../TypeDefs/TwinSAFEGroupInfoData.ctl"/>
 	</Item>
