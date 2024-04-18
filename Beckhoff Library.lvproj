@@ -41,6 +41,9 @@
 				<Item Name="BufferedEventData.ctl" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/_DependsOn/TypeDefs/Notifications/BufferedEventData.ctl"/>
 				<Item Name="Check License.vi" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/Utilities/Check License.vi"/>
 				<Item Name="CheckWriteStatus.vi" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/Low-Level/Write/CheckWriteStatus.vi"/>
+				<Item Name="CoE Object DataType.ctl" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/_DependsOn/TypeDefs/Utilities/CoE Object DataType.ctl"/>
+				<Item Name="CoE Object Description.ctl" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/_DependsOn/TypeDefs/Utilities/CoE Object Description.ctl"/>
+				<Item Name="CoE Object Entry.ctl" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/_DependsOn/TypeDefs/Utilities/CoE Object Entry.ctl"/>
 				<Item Name="Complete Buffer Info.ctl" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/_DependsOn/TypeDefs/Notifications/Complete Buffer Info.ctl"/>
 				<Item Name="Find Handle.vi" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/_DependsOn/Utilities/Find Handle.vi"/>
 				<Item Name="Get List of ReadWrite Symbols.vi" Type="VI" URL="/&lt;userlib&gt;/Beckhoff-LabVIEW-Interface/Low-Level/Init/Get List of ReadWrite Symbols.vi"/>
@@ -142,7 +145,7 @@
 			<Item Name="TF3710Lib.dll" Type="Document" URL="TF3710Lib.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TwinCAT.SymbolInterfaceConfigurator.Control.dll" Type="Document" URL="/&lt;resource&gt;/TwinCAT.SymbolInterfaceConfigurator.Control.dll"/>
+			<Item Name="TwinCAT.SymbolInterfaceConfigurator.Control.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2017/resource/TwinCAT.SymbolInterfaceConfigurator.Control.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
