@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Samples" Type="Folder">
 		<Item Name="Sample_EventContinuousRead.vi" Type="VI" URL="../Samples/Sample_EventContinuousRead.vi"/>
+		<Item Name="Sample_NotificationBufferedRead.vi" Type="VI" URL="../Samples/Sample_NotificationBufferedRead.vi"/>
 		<Item Name="Sample_SimpleBoolRead.vi" Type="VI" URL="../Samples/Sample_SimpleBoolRead.vi"/>
 		<Item Name="Sample_SimpleBoolWrite.vi" Type="VI" URL="../Samples/Sample_SimpleBoolWrite.vi"/>
 		<Item Name="Sample_SimpleContinuousRead.vi" Type="VI" URL="../Samples/Sample_SimpleContinuousRead.vi"/>
