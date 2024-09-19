@@ -18,6 +18,10 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="EtherCAT_Library.lvlib" Type="Library" URL="../EtherCAT/EtherCAT_Library.lvlib"/>
 		</Item>
+		<Item Name="GDevCon5" Type="Folder">
+			<Item Name="EtherCAT Control Simplified interface.vi" Type="VI" URL="../GDevCon5/EtherCAT Control Simplified interface.vi"/>
+			<Item Name="LargeNetworks.vi" Type="VI" URL="../GDevCon5/LargeNetworks.vi"/>
+		</Item>
 		<Item Name="Helper" Type="Folder">
 			<Item Name="GetADSPathsForTwinCAT.vi" Type="VI" URL="../Helper/GetADSPathsForTwinCAT.vi"/>
 			<Item Name="GetCoEIndexOfTargetDevice.vi" Type="VI" URL="../Helper/GetCoEIndexOfTargetDevice.vi"/>

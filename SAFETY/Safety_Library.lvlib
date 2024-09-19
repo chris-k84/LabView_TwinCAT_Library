@@ -13,5 +13,6 @@
 		<Item Name="FSLogicInputs.ctl" Type="VI" URL="../TypeDefs/FSLogicInputs.ctl"/>
 		<Item Name="FSoEConnectionInfoData.ctl" Type="VI" URL="../TypeDefs/FSoEConnectionInfoData.ctl"/>
 		<Item Name="TwinSAFEGroupInfoData.ctl" Type="VI" URL="../TypeDefs/TwinSAFEGroupInfoData.ctl"/>
+		<Item Name="TwinSAFETerminal.ctl" Type="VI" URL="../TypeDefs/TwinSAFETerminal.ctl"/>
 	</Item>
 </Library>
