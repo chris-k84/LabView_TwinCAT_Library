@@ -22,6 +22,7 @@
 				<Item Name="ConnectToDrive Argument--cluster.ctl" Type="VI" URL="../ConnectToDrive Argument--cluster.ctl"/>
 				<Item Name="DisconnectFromDrive Argument--cluster.ctl" Type="VI" URL="../DisconnectFromDrive Argument--cluster.ctl"/>
 				<Item Name="EnableDrive Argument--cluster.ctl" Type="VI" URL="../EnableDrive Argument--cluster.ctl"/>
+				<Item Name="DisableDrive Argument--cluster.ctl" Type="VI" URL="../DisableDrive Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -37,6 +38,7 @@
 			<Item Name="ConnectToDrive.vi" Type="VI" URL="../ConnectToDrive.vi"/>
 			<Item Name="DisconnectFromDrive.vi" Type="VI" URL="../DisconnectFromDrive.vi"/>
 			<Item Name="EnableDrive.vi" Type="VI" URL="../EnableDrive.vi"/>
+			<Item Name="DisableDrive.vi" Type="VI" URL="../DisableDrive.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
