@@ -31,7 +31,7 @@
 			<Item Name="IO_Library.lvlib" Type="Library" URL="../IO/IO_Library.lvlib"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
-			<Item Name="EL72xx_DMC_ServoAxis.lvlib" Type="Library" URL="../EL72xx_DMC_ServoAxis/EL72xx_DMC_ServoAxis.lvlib"/>
+			<Item Name="EL72xxDMC_Drive.lvlib" Type="Library" URL="../EL72xxDMC_Drive/EL72xxDMC_Drive.lvlib"/>
 		</Item>
 		<Item Name="MOTION" Type="Folder">
 			<Item Name="Motion_Library.lvlib" Type="Library" URL="../MOTION/Motion_Library.lvlib"/>
@@ -41,7 +41,7 @@
 			<Item Name="Safety_Library.lvlib" Type="Library" URL="../SAFETY/Safety_Library.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
-			<Item Name="Test EL72xx_DMC_ServoAxis API.vi" Type="VI" URL="../EL72xx_DMC_ServoAxis/Test EL72xx_DMC_ServoAxis API.vi"/>
+			<Item Name="Test EL72xxDMC_Drive API.vi" Type="VI" URL="../EL72xxDMC_Drive/Test EL72xxDMC_Drive API.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
