@@ -23,6 +23,9 @@
 				<Item Name="DisconnectFromDrive Argument--cluster.ctl" Type="VI" URL="../DisconnectFromDrive Argument--cluster.ctl"/>
 				<Item Name="EnableDrive Argument--cluster.ctl" Type="VI" URL="../EnableDrive Argument--cluster.ctl"/>
 				<Item Name="DisableDrive Argument--cluster.ctl" Type="VI" URL="../DisableDrive Argument--cluster.ctl"/>
+				<Item Name="MoveToAbsPosition Argument--cluster.ctl" Type="VI" URL="../MoveToAbsPosition Argument--cluster.ctl"/>
+				<Item Name="MoveAtVelocity Argument--cluster.ctl" Type="VI" URL="../MoveAtVelocity Argument--cluster.ctl"/>
+				<Item Name="StopAxis Argument--cluster.ctl" Type="VI" URL="../StopAxis Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -39,6 +42,9 @@
 			<Item Name="DisconnectFromDrive.vi" Type="VI" URL="../DisconnectFromDrive.vi"/>
 			<Item Name="EnableDrive.vi" Type="VI" URL="../EnableDrive.vi"/>
 			<Item Name="DisableDrive.vi" Type="VI" URL="../DisableDrive.vi"/>
+			<Item Name="MoveToAbsPosition.vi" Type="VI" URL="../MoveToAbsPosition.vi"/>
+			<Item Name="MoveAtVelocity.vi" Type="VI" URL="../MoveAtVelocity.vi"/>
+			<Item Name="StopAxis.vi" Type="VI" URL="../StopAxis.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
